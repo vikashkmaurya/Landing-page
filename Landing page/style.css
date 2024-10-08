@@ -1,0 +1,194 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* Header */
+
+header {
+    background: linear-gradient(to right, #221e6b, #157a88);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    color: white;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.header-buttons {
+    display: flex;
+}
+
+.header-buttons a {
+    background: linear-gradient(to right, #4c46ae, #0d3e44);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-left: 10px;
+    border-radius: 1rem;
+}
+
+
+/* Hero Section */
+
+.hero {
+    background-image: url('comp.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.hero .hero-buttons a {
+    background: linear-gradient(to right, #4c46ae, #237c88);
+    color: white;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin: 0 10px;
+    border-radius: 1rem;
+}
+
+
+/* Services Section */
+
+.services {
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.card-group {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    max-width: 1200px;
+}
+
+.card {
+    display: flex;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 380px;
+    height: 550px;
+    flex: 1;
+    overflow: hidden;
+}
+
+.card-img {
+    height: 250px;
+    width: 97%;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+    margin-bottom: 15px;
+    overflow: hidden;
+}
+
+.card-body {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.card-title {
+    margin: 0 0 10px;
+    font-size: 1.2em;
+    color: #007bff;
+}
+
+.card-text {
+    margin: 5px 0;
+    color: #666;
+}
+
+.text-muted {
+    color: #999;
+}
+
+
+/* About Section */
+
+.about {
+    padding: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+
+.about-content {
+    max-width: 600px;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.about-content h2 {
+    margin-bottom: 15px;
+}
+
+.about-content p {
+    margin-bottom: 20px;
+}
+
+.about-image {
+    flex-shrink: 0;
+}
+
+.about-image img {
+    max-width: 300px;
+    border-radius: 10px;
+}
+
+
+/* Footer */
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 30px;
+}
